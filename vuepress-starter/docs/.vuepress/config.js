@@ -1,4 +1,7 @@
 module.exports = {
+  title: '文档记录', // 设置网站标题
+  base: '/docs/', // 设置站点根路径
+  port: 8086,
   themeConfig: {
     logo: '/assets/img/logo.jpg',
     nav: [
