@@ -9,6 +9,7 @@
     "deploy": "bash deploy.sh"
   },
   "devDependencies": {
+    "moment": "^2.29.1",
     "vuepress": "^1.6.0"
   }
 }

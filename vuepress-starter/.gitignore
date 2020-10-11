@@ -22,5 +22,8 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
-# vuepress temp file
+# vuepress temp file 解决热更新问题
 .temp
+
+# 隐藏私密信息
+screct.js

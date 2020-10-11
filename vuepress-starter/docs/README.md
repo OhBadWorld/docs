@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /assets/img/image.jpg
-actionText: Get Started →
+actionText: 进入笔记 →
 actionLink: /about/
 features:
 - title: Simplicity First

@@ -70,3 +70,9 @@ yarn docs:dev # npm run docs:dev
 <div align="center">
  <img src="./../imgs/image.jpg" />
 </div>
+
+6. 自定义更新时间格式
+安装`moment`插件
+```
+yarn add -D moment
+```
