@@ -111,6 +111,9 @@ yarn add -D moment
   ```
   yarn add -D @vuepress/plugin-google-analytics
   ```
-
+9. 自动生成侧边栏
+```
+vuepress-plugin-auto-siderbar
+```
 
 <Vssue :options="{ locale: 'zh' }"/>
