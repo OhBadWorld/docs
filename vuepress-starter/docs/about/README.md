@@ -104,4 +104,13 @@ yarn add -D moment
      },
    };
    ```
-   <Vssue :options="{ locale: 'zh' }"/>
+8. 使用谷歌分析
+  [参考这里 主要为了获得 gaId](https://jingyan.baidu.com/article/359911f572d91957fe03062d.html)
+
+  主要为了获取UAid  (需要科学上网才行)
+  ```
+  yarn add -D @vuepress/plugin-google-analytics
+  ```
+
+
+<Vssue :options="{ locale: 'zh' }"/>

@@ -12,6 +12,7 @@
     "@vssue/api-github-v4": "^1.4.0",
     "@vssue/vuepress-plugin-vssue": "^1.4.6",
     "@vuepress/plugin-back-to-top": "^1.6.0",
+    "@vuepress/plugin-google-analytics": "^1.6.0",
     "moment": "^2.29.1",
     "vuepress": "^1.6.0"
   }

@@ -47,6 +47,12 @@ module.exports = {
         autoCreateIssue: true,
       },
     ],
-    ['@vuepress/back-to-top']
+    ['@vuepress/back-to-top'],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': screct.ga
+      }
+    ]
   ]
 }
