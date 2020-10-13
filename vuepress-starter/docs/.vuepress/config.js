@@ -46,6 +46,7 @@ module.exports = {
         clientSecret: screct.clientSecret,
         autoCreateIssue: true,
       },
-    ]
+    ],
+    ['@vuepress/back-to-top']
   ]
 }
