@@ -1,3 +1,7 @@
 # 文章列表
 
 ## [1.终极解密输入网址按回车到底发生了什么](1.md)
+
+## [什么是react](./react/r_1.md)
+
+<Vssue :options="{ locale: 'zh' }"/>

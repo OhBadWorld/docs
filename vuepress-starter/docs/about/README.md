@@ -76,3 +76,32 @@ yarn docs:dev # npm run docs:dev
 ```
 yarn add -D moment
 ```
+
+7. 使用vssue 给 静态文档增加 评论功能
+   1. 在github上创建 [OAuth App](https://github.com/settings/developers)
+   2. [步骤看这里](https://vssue.js.org/zh/guide/github.html)
+   3. 给项目安装 vssue 和 github插件
+    ```
+    yarn add -D @vssue/vuepress-plugin-vssue
+    yarn add -D @vssue/api-github-v4
+    ```
+   4. 使用插件
+   ```
+   // .vuepress/config.js
+
+   module.exports = {
+     plugins: {
+       '@vssue/vuepress-plugin-vssue': {
+         // 设置 `platform` 而不是 `api`
+         platform: 'github-v4',
+ 
+         // 其他的 Vssue 配置
+         owner: 'OWNER_OF_REPO',
+         repo: 'NAME_OF_REPO',
+         clientId: 'YOUR_CLIENT_ID',
+         clientSecret: 'YOUR_CLIENT_SECRET',
+       },
+     },
+   };
+   ```
+   <Vssue :options="{ locale: 'zh' }"/>

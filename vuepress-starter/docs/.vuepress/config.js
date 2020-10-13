@@ -1,4 +1,5 @@
 const moment = require('moment');
+const screct = require('./config/screct');
 
 module.exports = {
   title: '超群的文档', // 设置网站标题
@@ -31,6 +32,20 @@ module.exports = {
           return moment(timestamp).format('LLLL');
         }
       }
+    ],
+    [
+      '@vssue/vuepress-plugin-vssue',
+      {
+        // 设置 `platform` 而不是 `api`
+        platform: 'github-v4',
+  
+        // 其他的 Vssue 配置
+        owner: screct.owner,
+        repo: screct.repo,
+        clientId: screct.clientId,
+        clientSecret: screct.clientSecret,
+        autoCreateIssue: true,
+      },
     ]
   ]
 }
