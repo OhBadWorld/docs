@@ -10,7 +10,6 @@ module.exports = {
     lastUpdated: '更新时间', // string | boolean 
     logo: '/assets/img/logo.jpg',
     nav: navConf,
-    // sidebar: 'auto'
   },
   plugins: pluginsConf
 }

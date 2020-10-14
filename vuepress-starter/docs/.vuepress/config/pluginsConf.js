@@ -4,8 +4,7 @@ const screct = require('./screct');
 
 module.exports = [
   [
-    '@vuepress/last-updated',
-    {
+    '@vuepress/last-updated', {
       transformer: (timestamp) => {
         // 不要忘了安装 moment
         moment.locale('zh-CN');
@@ -14,8 +13,7 @@ module.exports = [
     }
   ],
   [
-    '@vssue/vuepress-plugin-vssue',
-    {
+    '@vssue/vuepress-plugin-vssue', {
       // 设置 `platform` 而不是 `api`
       platform: 'github-v4',
 
@@ -27,11 +25,17 @@ module.exports = [
       autoCreateIssue: true,
     },
   ],
-  ['@vuepress/back-to-top'],
   [
-    '@vuepress/google-analytics',
-    {
+    '@vuepress/back-to-top', {}
+  ],
+  [
+    '@vuepress/google-analytics', {
       'ga': screct.ga
+    }
+  ],
+  [
+    "vuepress-plugin-auto-sidebar", {
+      // nav: true
     }
   ]
 ]
