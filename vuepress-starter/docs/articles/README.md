@@ -8,6 +8,6 @@ title: 文章列表
 
 ## [2.什么是react](./react/r_1.md)
 
-## [3.侧边栏测试](2.md)
+## [3.腾讯云服务器试水](./tenCloud/t_1.md)
 
 <Vssue :options="{ locale: 'zh' }"/>

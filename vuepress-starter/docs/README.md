@@ -4,11 +4,11 @@ home: true
 actionText: 进入笔记 →
 actionLink: /about/
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+- title: 一步一回头
+  details: 学到的东西及时插个眼，便于回顾.
+- title: 前进一步思三步
+  details: 融汇贯通.
+- title: 继续前进
+  details: 日拱一足，聚沙成塔.
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
